@@ -31,6 +31,7 @@ export default function MainLayout({
           defaultTheme="light"
           enableSystem
           disableTransitionOnChange
+          themes={["light", "dark", "system", "cosmic-night", "doom-64"]}
         >
           {children}
         </ThemeProvider>
